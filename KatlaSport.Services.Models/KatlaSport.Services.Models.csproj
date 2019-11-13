@@ -60,7 +60,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="**\*.cs" Exclude="obj\Debug\*.cs;obj\Release\*.cs" />
+    <Compile Include="HiveManagement\UpdateHiveSectionRequestValidator.cs" />
+    <Compile Include="HiveManagement\UpdateHiveSectionRequest.cs" />
+    <Compile Include="HiveManagement\Hive.cs" />
+    <Compile Include="HiveManagement\HiveListItem.cs" />
+    <Compile Include="HiveManagement\HiveSection.cs" />
+    <Compile Include="HiveManagement\HiveSectionListItem.cs" />
+    <Compile Include="HiveManagement\IHiveSectionService.cs" />
+    <Compile Include="HiveManagement\IHiveService.cs" />
+    <Compile Include="HiveManagement\UpdateHiveRequest.cs" />
+    <Compile Include="HiveManagement\UpdateHiveRequestValidator.cs" />
+    <Compile Include="OrderManagement\Client.cs" />
+    <Compile Include="OrderManagement\Delivery.cs" />
+    <Compile Include="OrderManagement\Employee.cs" />
+    <Compile Include="OrderManagement\IClientService.cs" />
+    <Compile Include="OrderManagement\IDeliveryService.cs" />
+    <Compile Include="OrderManagement\IEmployeeService.cs" />
+    <Compile Include="OrderManagement\IOrderService.cs" />
+    <Compile Include="OrderManagement\Order.cs" />
+    <Compile Include="OrderManagement\UpdateClientRequestValidator.cs" />
+    <Compile Include="OrderManagement\UpdateDeliveryRequest.cs" />
+    <Compile Include="OrderManagement\UpdateDeliveryRequestValidator.cs" />
+    <Compile Include="OrderManagement\UpdateEmployeeRequest.cs" />
+    <Compile Include="OrderManagement\UpdateEmployeeRequestValidator.cs" />
+    <Compile Include="OrderManagement\UpdateOrderRequest.cs" />
+    <Compile Include="OrderManagement\UpdateOrderRequestValidator.cs" />
+    <Compile Include="OrderManagement\UpdateClientRequest.cs" />
+    <Compile Include="ProductManagement\IProductCatalogueService.cs" />
+    <Compile Include="ProductManagement\IProductCategoryService.cs" />
+    <Compile Include="ProductManagement\Product.cs" />
+    <Compile Include="ProductManagement\ProductCategory.cs" />
+    <Compile Include="ProductManagement\ProductCategoryListItem.cs" />
+    <Compile Include="ProductManagement\ProductCategoryProductListItem.cs" />
+    <Compile Include="ProductManagement\ProductListItem.cs" />
+    <Compile Include="ProductManagement\UpdateProductCategoryRequest.cs" />
+    <Compile Include="ProductManagement\UpdateProductCategoryRequestValidator.cs" />
+    <Compile Include="ProductManagement\UpdateProductRequest.cs" />
+    <Compile Include="ProductManagement\UpdateProductRequestValidator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

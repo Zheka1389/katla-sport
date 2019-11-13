@@ -6,7 +6,7 @@ namespace KatlaSport.WebApi.Controllers
     {
         public HomeController()
         {
-        }
+        }      
 
         public ActionResult Index()
         {

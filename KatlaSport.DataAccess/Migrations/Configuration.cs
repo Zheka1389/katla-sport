@@ -46,7 +46,51 @@ namespace KatlaSport.DataAccess.Migrations
             var timestamp = DateTime.UtcNow;
             var creatorId = 1;
 
-            context.ProductCategories.AddOrUpdate(
+            //context.Orders.AddOrUpdate(
+            //    new Order
+            //    {
+            //        OrderId = 1,
+            //        Name = "Test",
+            //        DateAccommodation = timestamp,
+            //        DateDestination = timestamp,
+            //        DateExecution = timestamp
+            //    });
+
+            //context.Deliveries
+                    //context.Orders.AddOrUpdate(
+                    //    i => i.Id,
+                    //    new Order
+                    //    {
+                    //        Id = 1,
+                    //        Name = "Test",
+                    //        DateAccommodation = timestamp,
+                    //        DateDestination = timestamp,
+                    //        DateExecution = timestamp,
+                    //        Clients = new Client
+                    //        {
+                    //            Address = "test",
+                    //            Employees = new Employee
+                    //            {
+                    //                Department = "test",
+                    //                Id = 1,
+                    //                FirstName = "test",
+                    //                LastName = "test",
+                    //                Position = "test"
+                    //            },
+                    //            FirstName = "test",
+                    //            LastName = "test",
+                    //            TelephoneNumber = "test",
+                    //            Id = 1
+                    //        },
+                    //        Deliveries = new Delivery
+                    //        {
+                    //            Address = "test",
+                    //            Id = 1,
+                    //            TelephoneNumber = "test"
+                    //        }
+                    //    });
+
+                    context.ProductCategories.AddOrUpdate(
                 i => i.Id,
                 new ProductCategory
                 {
